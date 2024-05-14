@@ -1,0 +1,89 @@
+﻿@page "/updateMovie/{Id}"
+
+
+@using MoviesGallery.Shared.DTOs
+
+@inject HttpClient _http
+@inject NavigationManager nav
+
+@inject IMoviesService _moviesService
+
+<h3 style="text-align:center">Update Movie</h3>
+
+<EditForm Model="updatedMovieDto" OnValidSubmit="Update" style="padding:3%">
+    <DataAnnotationsValidator />
+    <label for="List Name">  Title </label>
+    <br />
+    <InputText @bind-Value="updatedMovieDto.Title" class="form-control" placeholder="title" />
+    <ValidationMessage For="@(() => updatedMovieDto.Title)" />
+    <br />
+    <label for="List Name">  Genre </label>
+    <br />
+    <InputText @bind-Value="@updatedMovieDto.Genre" class="form-control" />
+    <ValidationMessage For="@(() => updatedMovieDto.Genre)" />
+    <br />
+    <label for="List Name">  Year </label>
+    <br />
+    <InputNumber @bind-Value="updatedMovieDto.Year" class="form-control" placeholder="year" />
+    <ValidationMessage For="@(() => updatedMovieDto.Year)" />
+    <br />
+    <label for="List Name">  Rating </label>
+    <br />
+    <InputNumber @bind-Value="updatedMovieDto.Rating" class="form-control" placeholder="rating" />
+    <ValidationMessage For="@(() => updatedMovieDto.Rating)" />
+    <br />
+    <label for="List Name">  Director </label>
+    <br />
+    <InputText @bind-Value="updatedMovieDto.Director" class="form-control" placeholder="director" />
+    <ValidationMessage For="@(() => updatedMovieDto.Director)" />
+
+    <br />
+    <label for="List Name"> Actors </label>
+    <br />
+    <InputText @bind-Value="@updatedMovieDto.Actors" class="form-control" placeholder="Actors" />
+
+    <br />
+    <label for="List Name">  Plot </label>
+    <br />
+    <InputText @bind-Value="updatedMovieDto.Plot" class="form-control" placeholder="plot" />
+    <ValidationMessage For="@(() => updatedMovieDto.Plot)" />
+    <br />
+    <label for="List Name">  Trailer </label>
+    <br />
+    <InputText @bind-Value="updatedMovieDto.Trailer" class="form-control" placeholder="trailer" />
+    <ValidationMessage For="@(() => updatedMovieDto.Trailer)" />
+    <br />
+    <label for="List Name">  Poster URL </label>
+    <br />
+    <InputText @bind-Value="updatedMovieDto.PosterURL" class="form-control" placeholder="poster file" />
+    <ValidationMessage For="@(() => updatedMovieDto.PosterURL)" />
+    <br />
+    <label for="List Name">  Poster File </label>
+    <br />
+    <InputFile @bind-Value="updatedMovieDto.PosterFile" class="form-control" placeholder="poster file" />
+    <ValidationMessage For="@(() => updatedMovieDto.PosterFile)" />
+    <br />
+    <button class="btn btn-success" type="submit">Update Movie</button>
+</EditForm>
+
+@code {
+
+
+    [Parameter]
+    public string Id{ get; set; }
+
+    public MovieDto updatedMovieDto { get; set; } = new();
+    Movie movie = new();
+    protected override async Task OnInitializedAsync()
+    {
+        movie = await _moviesService.GetMovieByIdAsync(new Guid(Id));
+    }
+
+    public async Task Update()
+    {
+
+        await _moviesService.UpdateMovieAsync(updatedMovieDto);
+        nav.NavigateTo("/");
+    }
+}
+

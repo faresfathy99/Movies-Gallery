@@ -1,0 +1,32 @@
+﻿@page "/getMovie/{Id}"
+@using MoviesGallery.Shared.DTOs
+@inject IMoviesService _moviesService
+
+<h3>Movie</h3>
+
+@if (movie != null)
+{
+    <img src="~/Images/PostersImages/@movie.PosterFile" width="100px" />
+    <br />
+     <b>Title</b> <p>@movie.Title</p>
+    <b>Actors</b> <p>@movie.Actors</p>
+    <b>Director</b><p>@movie.Director</p>
+    <b>Plot</b> <p>@movie.Plot</p>
+    <b>Poster Url</b> <p>@movie.PosterURL</p>
+    <b>Rating</b> <p>@movie.Rating</p>
+    <b>Genre</b> <p>@movie.Genre</p>
+}
+
+@code {
+
+    [Parameter]
+    public string Id { get; set; }
+
+    Movie movie = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        movie = await _moviesService.GetMovieByIdAsync(new Guid(Id));
+    }
+
+}

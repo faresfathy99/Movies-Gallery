@@ -1,0 +1,84 @@
+﻿@page "/addMovie"
+@using MoviesGallery.Shared.DTOs
+
+@inject HttpClient _http
+@inject NavigationManager nav
+
+@inject IMoviesService _moviesService
+
+<h3 style="text-align:center">Add Movie</h3>
+@if (added == true)
+{
+    <div class="alert alert-success" role="alert">
+        Movie Added Successfully!
+    </div>
+}
+
+<EditForm Model="addMovieDto" OnValidSubmit="Add" style="padding:3%">
+    <DataAnnotationsValidator />
+    <label for="List Name">  Title </label>
+    <br />
+    <InputText @bind-Value="addMovieDto.Title" class="form-control" placeholder="title" />
+    <ValidationMessage For="@(() => addMovieDto.Title)" />
+    <br />
+    <label for="List Name">  Genre </label>
+    <br />
+    <InputText @bind-Value="@addMovieDto.Genre" class="form-control" />
+    <ValidationMessage For="@(() => addMovieDto.Genre)" />
+    <br />
+    <label for="List Name">  Year </label>
+    <br />
+    <InputNumber @bind-Value="addMovieDto.Year" class="form-control" placeholder="year" />
+    <ValidationMessage For="@(() => addMovieDto.Year)" />
+    <br />
+    <label for="List Name">  Rating </label>
+    <br />
+    <InputNumber @bind-Value="addMovieDto.Rating" class="form-control" placeholder="rating" />
+    <ValidationMessage For="@(() => addMovieDto.Rating)" />
+    <br />
+    <label for="List Name">  Director </label>
+    <br />
+    <InputText @bind-Value="addMovieDto.Director" class="form-control" placeholder="director" />
+    <ValidationMessage For="@(() => addMovieDto.Director)" />
+
+    <br />
+    <label for="List Name"> Actors </label>
+    <br />
+    <InputText @bind-Value="@addMovieDto.Actors" class="form-control" placeholder="Actors" />
+
+    <br />
+    <label for="List Name">  Plot </label>
+    <br />
+    <InputText @bind-Value="addMovieDto.Plot" class="form-control" placeholder="plot" />
+    <ValidationMessage For="@(() => addMovieDto.Plot)" />
+    <br />
+    <label for="List Name">  Trailer </label>
+    <br />
+    <InputText @bind-Value="addMovieDto.Trailer" class="form-control" placeholder="trailer" />
+    <ValidationMessage For="@(() => addMovieDto.Trailer)" />
+    <br />
+    <label for="List Name">  Poster URL </label>
+    <br />
+    <InputText @bind-Value="addMovieDto.PosterURL" class="form-control" placeholder="poster file" />
+    <ValidationMessage For="@(() => addMovieDto.PosterURL)" />
+    <br />
+    <label for="List Name">  Poster File </label>
+    <br />
+    <InputFile @bind-Value="addMovieDto.PosterFile" class="form-control" placeholder="poster file" />
+    <ValidationMessage For="@(() => addMovieDto.PosterFile)" />
+    <br />
+    <button class="btn btn-success" type="submit">Add Movie</button>
+</EditForm>
+
+@code {
+
+    public MovieDto addMovieDto { get; set; } = new();
+    bool added = false;
+
+    public async Task Add()
+    {
+
+        await _moviesService.AddMovieAsync(addMovieDto);
+        nav.NavigateTo("/");
+    }
+}

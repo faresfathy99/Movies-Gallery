@@ -1,0 +1,28 @@
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\bin\Debug\net8.0\MoviesGallery.Shared.deps.json
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\bin\Debug\net8.0\MoviesGallery.Shared.runtimeconfig.json
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\bin\Debug\net8.0\MoviesGallery.Shared.dll
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\bin\Debug\net8.0\MoviesGallery.Shared.pdb
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.csproj.AssemblyReference.cache
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.AssemblyInfoInputs.cache
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.AssemblyInfo.cs
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.dll
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\refint\MoviesGallery.Shared.dll
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.pdb
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.genruntimeconfig.cache
+C:\Users\Faris Fathy\source\repos\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\ref\MoviesGallery.Shared.dll
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\bin\Debug\net8.0\MoviesGallery.Shared.deps.json
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\bin\Debug\net8.0\MoviesGallery.Shared.runtimeconfig.json
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\bin\Debug\net8.0\MoviesGallery.Shared.dll
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\bin\Debug\net8.0\MoviesGallery.Shared.pdb
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.csproj.AssemblyReference.cache
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.AssemblyInfoInputs.cache
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.AssemblyInfo.cs
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.csproj.CoreCompileInputs.cache
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.dll
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\refint\MoviesGallery.Shared.dll
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.pdb
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.genruntimeconfig.cache
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\ref\MoviesGallery.Shared.dll

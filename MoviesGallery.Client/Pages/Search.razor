@@ -1,0 +1,28 @@
+﻿@page "/search"
+@inject IMoviesService _moviesService
+@inject NavigationManager nav
+<h3>Search</h3>
+
+<EditForm Model="word" OnValidSubmit="SearchMovie" style="padding:3%">
+    <InputText @bind-Value="word" class="form-control"></InputText><br />
+    <button class="btn btn-success" type="submit">Search</button>
+</EditForm>
+
+@code {
+
+
+    public string word { get; set; } = "";
+
+
+
+    public async Task SearchMovie()
+    {
+        var movie = await _moviesService.SearchAsync(word);
+        if (movie != null)
+        {
+            nav.NavigateTo($"/getMovie/{movie.Id}");
+        }
+        nav.NavigateTo($"/notfound");
+    }
+
+}

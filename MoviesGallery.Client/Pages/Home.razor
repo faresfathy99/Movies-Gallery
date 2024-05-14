@@ -1,0 +1,49 @@
+﻿@page "/"
+@using MoviesGallery.Client.Services
+@using MoviesGallery.Shared.Models
+@using Newtonsoft.Json
+@using System.Text
+
+@inject IMoviesService _moviesService
+
+<a class="btn btn-primary" href="/addMovie" role="button">Add Movie</a>
+<br />
+@if (movies != null)
+{
+    @foreach (var m in movies)
+    {
+        <div class="row" style="padding-top:2%">
+            <div class="col-sm-3">
+                <a href="/getMovie/@m.Id">
+                    <img src="~/Images/PostersImages/@m.PosterFile" width="150px"/>
+                    <p>@m.Title</p>
+                </a>
+            </div>
+        </div>
+        <br />
+        <a class="btn btn-success" href="/updateMovie/@m.Id" role="button">Update</a>
+        <a class="btn btn-danger" href="/deleteMovie/@m.Id" role="button">Delete</a>
+
+        
+    }
+}
+
+
+
+
+
+
+
+@code {
+
+
+    IEnumerable<Movie> movies { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        movies = await _moviesService.GetMoviesAsync();
+    }
+
+
+}
+

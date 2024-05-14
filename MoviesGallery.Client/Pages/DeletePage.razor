@@ -1,0 +1,24 @@
+﻿@page "/deleteMovie/{Id}"
+@inject IMoviesService _moviesService
+@inject NavigationManager NavManager
+
+<h3>DeleteMovie</h3>
+
+@code {
+
+
+    [Parameter]
+    public string Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        var movie = await _moviesService.GetMovieByIdAsync(new Guid(Id));
+        if (movie != null)
+        {
+            await _moviesService.DeleteMovieByIdAsync(new Guid(Id));
+            NavManager.NavigateTo("/");
+        }
+    }
+
+}
