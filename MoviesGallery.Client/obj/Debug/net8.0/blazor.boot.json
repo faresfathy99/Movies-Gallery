@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MoviesGallery.Client",
   "resources": {
-    "hash": "sha256-J+WRs4h/y03nTgZ5rFy+5JoEYbeWdS2sOEvDNWGYV20=",
+    "hash": "sha256-9FyFYMXO83/xj7NIODYbAV7eJ5cAIxNX6GxSWKymcK0=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.obcrps8ti1.js": "sha256-D4sYBYmDfH/YekgYRgX959/2RG6k28sJSHmcsn+iikk="
     },
@@ -243,12 +243,12 @@
       "mscorlib.wasm": "sha256-/xjZuJwCmantx5vGyH5ZZ8keySSTeu+YHKQRJbZzcuM=",
       "netstandard.wasm": "sha256-vuFKmCGJbyv85DrzI6S1ZvCikuhIllH6hqbXIL+fUAA=",
       "System.Private.CoreLib.wasm": "sha256-SZkozEDkHEFN0VaDmhl2HOenGaqTOmHqEGkraz3Aejc=",
-      "MoviesGallery.Shared.wasm": "sha256-zBKJV2LKHxUCB89SU3p5+pQR/ubCirSP5Z+zMYXc5XQ=",
-      "MoviesGallery.Client.wasm": "sha256-+5EAgTdN/oz2GP/29SlxxVad4+hhLaDQKfqddTk14VM="
+      "MoviesGallery.Shared.wasm": "sha256-KeFyVws6V7ijVhgNgbHmQuKTiBSspnWLhP0dcljRilY=",
+      "MoviesGallery.Client.wasm": "sha256-7SKNmX+o62uRqPUwukJn4O8TkfDKIIPFW4nrnpo+1kE="
     },
     "pdb": {
-      "MoviesGallery.Shared.pdb": "sha256-EyMENkpRodkPe67qBQiG8Qr0lncpoLGVrni/yeptAUE=",
-      "MoviesGallery.Client.pdb": "sha256-53sE4OPZJeAWR0OdmOxAyOxJWzJ852HRucW7xAx5IjI="
+      "MoviesGallery.Shared.pdb": "sha256-TaJmHZlHJoB6DsXU+CcbbCVWbM+ag5Ttqm3uCy/H+tk=",
+      "MoviesGallery.Client.pdb": "sha256-iYSmRWYSlflrGqfp8rG6VWTJz+YTbd5K8tUfCdhNwBY="
     }
   },
   "cacheBootResources": true,

@@ -2428,3 +2428,4 @@ E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Client\obj\Debug\net8.0\Movies
 E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Client\obj\Debug\net8.0\refint\MoviesGallery.Client.dll
 E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Client\obj\Debug\net8.0\MoviesGallery.Client.pdb
 E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Client\obj\Debug\net8.0\ref\MoviesGallery.Client.dll
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Client\obj\Debug\net8.0\MoviesGallery.Client.sourcelink.json

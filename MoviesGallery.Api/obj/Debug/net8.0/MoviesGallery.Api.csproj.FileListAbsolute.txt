@@ -291,3 +291,4 @@ E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Api\bin\Debug\net8.0\Microsoft
 E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Api\bin\Debug\net8.0\MoviesGallery.Client.dll
 E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Api\bin\Debug\net8.0\MoviesGallery.Client.pdb
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Api\obj\Debug\net8.0\MoviesGallery.Api.sourcelink.json

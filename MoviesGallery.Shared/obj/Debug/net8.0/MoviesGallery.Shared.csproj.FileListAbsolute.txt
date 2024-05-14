@@ -26,3 +26,4 @@ E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\refint
 E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.pdb
 E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.genruntimeconfig.cache
 E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\ref\MoviesGallery.Shared.dll
+E:\New folder (4)\MoviesGallery.Api\MoviesGallery.Shared\obj\Debug\net8.0\MoviesGallery.Shared.sourcelink.json

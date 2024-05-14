@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v4NFAq9ZNbopsxbCF6/ra96xPH2YTxzdm2Qzx3fFZCw=",
+  "Hash": "ckChYUFex6/+PcbJ8jf+tI5aj+0UTEvyNKll7UVttH4=",
   "Source": "MoviesGallery.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -9306,25 +9306,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
-    },
-    {
-      "Identity": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Client\\wwwroot\\Images\\PostersImages\\3a27f37b-b603-444a-a8a5-94654b3abf10_images.jpeg",
-      "SourceId": "MoviesGallery.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "Images/PostersImages/3a27f37b-b603-444a-a8a5-94654b3abf10_images.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\PostersImages\\3a27f37b-b603-444a-a8a5-94654b3abf10_images.jpeg"
     },
     {
       "Identity": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Client\\wwwroot\\index.html",

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\New folder (4)\\MoviesGallery.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EEBD3273-77DE-4D8E-B57E-2C6228473E79}|MoviesGallery.Client\\MoviesGallery.Client.csproj|e:\\new folder (4)\\moviesgallery.api\\moviesgallery.client\\pages\\search.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEBD3273-77DE-4D8E-B57E-2C6228473E79}|MoviesGallery.Client\\MoviesGallery.Client.csproj|solutionrelative:moviesgallery.client\\pages\\search.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C0080B-4361-45EF-B6D5-91C376364BE9}|MoviesGallery.Api\\MoviesGallery.Api.csproj|e:\\new folder (4)\\moviesgallery.api\\moviesgallery.api\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C0080B-4361-45EF-B6D5-91C376364BE9}|MoviesGallery.Api\\MoviesGallery.Api.csproj|solutionrelative:moviesgallery.api\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBD3273-77DE-4D8E-B57E-2C6228473E79}|MoviesGallery.Client\\MoviesGallery.Client.csproj|e:\\new folder (4)\\moviesgallery.api\\moviesgallery.client\\services\\moviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBD3273-77DE-4D8E-B57E-2C6228473E79}|MoviesGallery.Client\\MoviesGallery.Client.csproj|solutionrelative:moviesgallery.client\\services\\moviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEBD3273-77DE-4D8E-B57E-2C6228473E79}|MoviesGallery.Client\\MoviesGallery.Client.csproj|e:\\new folder (4)\\moviesgallery.api\\moviesgallery.client\\pages\\addmovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EEBD3273-77DE-4D8E-B57E-2C6228473E79}|MoviesGallery.Client\\MoviesGallery.Client.csproj|solutionrelative:moviesgallery.client\\pages\\addmovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EEBD3273-77DE-4D8E-B57E-2C6228473E79}|MoviesGallery.Client\\MoviesGallery.Client.csproj|e:\\new folder (4)\\moviesgallery.api\\moviesgallery.client\\services\\imoviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEBD3273-77DE-4D8E-B57E-2C6228473E79}|MoviesGallery.Client\\MoviesGallery.Client.csproj|solutionrelative:moviesgallery.client\\services\\imoviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEBD3273-77DE-4D8E-B57E-2C6228473E79}|MoviesGallery.Client\\MoviesGallery.Client.csproj|e:\\new folder (4)\\moviesgallery.api\\moviesgallery.client\\services\\moviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEBD3273-77DE-4D8E-B57E-2C6228473E79}|MoviesGallery.Client\\MoviesGallery.Client.csproj|solutionrelative:moviesgallery.client\\services\\moviesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Search.razor",
+              "DocumentMoniker": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Client\\Pages\\Search.razor",
+              "RelativeDocumentMoniker": "MoviesGallery.Client\\Pages\\Search.razor",
+              "ToolTip": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Client\\Pages\\Search.razor",
+              "RelativeToolTip": "MoviesGallery.Client\\Pages\\Search.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T16:34:18.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Api\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "MoviesGallery.Api\\Services\\MovieService.cs",
+              "ToolTip": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Api\\Services\\MovieService.cs",
+              "RelativeToolTip": "MoviesGallery.Api\\Services\\MovieService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T16:33:28.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AddMovie.razor",
               "DocumentMoniker": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Client\\Pages\\AddMovie.razor",
               "RelativeDocumentMoniker": "MoviesGallery.Client\\Pages\\AddMovie.razor",
@@ -51,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Home.razor",
               "DocumentMoniker": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Client\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "MoviesGallery.Client\\Pages\\Home.razor",
@@ -59,12 +89,11 @@
               "RelativeToolTip": "MoviesGallery.Client\\Pages\\Home.razor",
               "ViewState": "AQIAABsAAAAAAAAAAAAAACsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T15:25:56.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T15:25:56.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MovieController.cs",
               "DocumentMoniker": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Api\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "MoviesGallery.Api\\Controllers\\MovieController.cs",
@@ -72,12 +101,11 @@
               "RelativeToolTip": "MoviesGallery.Api\\Controllers\\MovieController.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAgwE0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T15:23:32.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T15:23:32.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MoviesService.cs",
               "DocumentMoniker": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Client\\Services\\MoviesService.cs",
               "RelativeDocumentMoniker": "MoviesGallery.Client\\Services\\MoviesService.cs",
@@ -90,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "IMoviesService.cs",
               "DocumentMoniker": "E:\\New folder (4)\\MoviesGallery.Api\\MoviesGallery.Client\\Services\\IMoviesService.cs",
               "RelativeDocumentMoniker": "MoviesGallery.Client\\Services\\IMoviesService.cs",
@@ -98,8 +126,7 @@
               "RelativeToolTip": "MoviesGallery.Client\\Services\\IMoviesService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T15:23:08.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T15:23:08.662Z"
             }
           ]
         }

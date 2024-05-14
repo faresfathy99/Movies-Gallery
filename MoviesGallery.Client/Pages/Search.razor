@@ -22,7 +22,11 @@
         {
             nav.NavigateTo($"/getMovie/{movie.Id}");
         }
-        nav.NavigateTo($"/notfound");
+        else
+        {
+            nav.NavigateTo($"/notfound");
+        }
+        
     }
 
 }
